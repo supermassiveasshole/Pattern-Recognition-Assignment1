@@ -30,7 +30,7 @@
   - The `logistic` folder is the very place where our logistic regression algrithm lies.
 - `dist`
   - This folder contains all of the compiled `.js` files.
-- `LogisticRegressionVisualization`
+- `Pattern-Recognition-Assignment1-Visualization`
   - This folder is a project which is a undergoing logistic regression visualization application.
   - For more detailed information, reference the `README.md` file inside this folder.
 - Others
