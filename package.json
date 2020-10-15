@@ -1,0 +1,24 @@
+{
+  "name": "logistic_regression",
+  "version": "0.1.0",
+  "description": "A simple implementation of logistic_regression",
+  "main": "index.js",
+  "dependencies": {
+    "@types/node": "^14.11.8",
+    "ml-matrix": "^6.5.3",
+    "mnist": "^1.1.0",
+    "nblas": "^2.1.9",
+    "nlapack": "^2.0.4",
+    "vectorious": "^6.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "logistic",
+    "regression"
+  ],
+  "author": "Xue Rui",
+  "license": "MIT"
+}
