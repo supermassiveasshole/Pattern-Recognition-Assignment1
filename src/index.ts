@@ -4,24 +4,20 @@ import { LogisticRegression } from "./logistic/logistic-regression";
 import { NewtonOpt } from "./Maths/newtonOpt";
 import { firstLogisticDerivative, secondLogisticDerivative } from "./logistic/derivatives";
 import { GradientDecOpt } from "./Maths/gradientDecOpt";
-import { Matrix } from 'ml-matrix'
+import { Matrix } from 'ml-matrix';
+import * as iris from '../iris_processed_PCA.json';
 
-let tagMap = new Map();
-tagMap.set("Iris-setosa", 1);
-tagMap.set("Iris-versicolor", 0);
-
-const fs = require('fs');
-let arr = [];
-let data: string=fs.readFileSync('./iris_processed.json','utf8');
-arr = JSON.parse(data);
+let irisData = iris as {
+    data: number[][];
+    tags: number[];
+};
 
 let samples = [];
 let sampleTags = [];
-arr.forEach((val: string, index: number) => {
-    let tokens = val.split(',', 5);
-    samples.push([Number(tokens[0]), Number(tokens[1])]);
-    sampleTags.push([tagMap.get(tokens[4])]);
-});
+for(let i = 0; i < irisData.data[0].length; i++) {
+    samples.push([irisData.data[0][i],irisData.data[1][i]]);
+    sampleTags.push([irisData.tags[i]]);
+}
 
 let trainSet = new Matrix(samples.slice(0, samples.length - 20)).transpose();
 let trainSetTags = new Matrix(sampleTags.slice(0, sampleTags.length - 20));

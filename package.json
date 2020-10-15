@@ -9,6 +9,7 @@
     "mnist": "^1.1.0",
     "nblas": "^2.1.9",
     "nlapack": "^2.0.4",
+    "pca-js": "^1.0.2",
     "vectorious": "^6.0.2"
   },
   "devDependencies": {},
