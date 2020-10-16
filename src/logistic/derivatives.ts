@@ -1,7 +1,7 @@
 /**
  * 定义了一些logistic 回归进行参数优化所需要的导函数
  */
-import { p1 } from "../Maths/probability";
+import { p1 } from "./probability";
 import { Matrix } from 'ml-matrix';
 
 
