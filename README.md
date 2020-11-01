@@ -1,7 +1,7 @@
 # Pattern-Recognition-Assignment1
 
 ## How to run this project
-- Step1: Download this project or just clone it via git clone. the repository is [here](https://github.com/supermassiveasshole/Pattern-Recognition-Assignment1.git)
+- Step1: Download this project or just clone it via git clone. The repository is [here](https://github.com/supermassiveasshole/Pattern-Recognition-Assignment1.git)
 
 - Step2: Here are some runtime environment you should already have installed before running this project. All of these should be prepared if you don't have them all installed correctly.
   - [node.js](https://nodejs.org) ( npm should be installed along with node.js )
