@@ -1,20 +1,20 @@
 # Pattern-Recognition-Assignment1
 
 ## How to run this project
-- Step1: Download this project or just clone it via git clone. The repository is [here](https://github.com/supermassiveasshole/Pattern-Recognition-Assignment1.git)
+- Step1: download this project or just clone it via git clone. The repository is [here](https://github.com/supermassiveasshole/Pattern-Recognition-Assignment1.git)
 
-- Step2: Here are some runtime environment you should already have installed before running this project. All of these should be prepared if you don't have them all installed correctly.
+- Step2: here are some runtime environment you should already have installed before running this project. All of these should be prepared if you don't have them all installed correctly.
   - [node.js](https://nodejs.org) ( npm should be installed along with node.js )
   - [typescript](https://www.typescriptlang.org/download) ( We truely recommend installing typescript via npm: `npm i typescript -g` )
   - [ts-node](https://www.npmjs.com/package/ts-node) may have access to simplify the procedure running this project. However, run compiled js files on node.js is always a good solution.
   - [Angular cli](https://angular.io) `npm i -g @angular/cli` is also required if you want to run the data visualization project inside the folder 'LogisticRegressionVisualization'. We also provide a compiled version of this project which you can run it in browsers like Chrome. But a local server is required instead( We recommend the live server extension for vscode ).
 
-- step3: Compile this project
+- Step3: compile this project
   - Before compile this project, you must run `npm i` to install all the dependencies which this project use. 
   - Use the command `tsc` to compile all `.ts` files into `.js` files. All the js file will be waiting for you inside the 'dist' folder.
   - Alternatively, you could leave this job to ***ts-node*** and skip this step.
 
-- step4: Run this project
+- Step4: run this project
   
   To run this project use the command `node dist/index.js` or use `ts-node src/index.ts`. Use the method whichever you like to run this project. 
 
