@@ -33,6 +33,6 @@
 - `Pattern-Recognition-Assignment1-Visualization`
   - This folder is a project which is a undergoing logistic regression visualization application.
   - To run this project use `npm i` and the input `ng serve --open` in the command line.
-  - For more detailed information, reference the `README.md` file inside this folder.
+  - For more detailed information, refer to the `README.md` file inside this folder.
 - Others
   - Just leave them alone.
